@@ -1,0 +1,38 @@
+name: beautiful_timelines
+description: Beautiful timelines made with Flutter and timeline_tile
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  timeline_tile: ^1.0.0
+  google_fonts: ^1.1.0
+  weather_icons: ^2.0.1
+  flutter_showcase: ^0.1.0
+
+  example_timeline_tile:
+    git:
+      url: https://github.com/JHBitencourt/timeline_tile.git
+      path: example
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/app/
+    - assets/delivery/
+    - assets/delivery/horizontal/
+    - assets/football/
